@@ -1,0 +1,15 @@
+.itemlistcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 430px;
+    
+}
+
+.itemlistcontainer-h1{
+    font-size: 1.6em;
+    line-height: 1.1;
+    color: #ffffff;
+}
