@@ -1,6 +1,7 @@
 import React from "react";
 import CartWidget from './CartWidget' 
 import './NavBar.css'
+import ItemListContainer from "./ItemListContainer";
 function Navbar() {
     return (
       <div className="Navbar">
@@ -19,13 +20,11 @@ function Navbar() {
             
           </div>
 
-          <div className="cart-widget">
-          <CartWidget />
           </div>
 
         </div>
 
-      </div>
+   
     );
   }
   
