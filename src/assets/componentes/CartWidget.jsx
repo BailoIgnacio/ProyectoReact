@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import ItemListContainer from "./ItemListContainer"
 
-function CartWidget({carrito}){
+function CartWidget({}){
 
-    const CarroCompras = () => <button>🛒{carrito}</button>
+    const CarroCompras = () => <button>🛒0</button>
 
 
     return CarroCompras()
